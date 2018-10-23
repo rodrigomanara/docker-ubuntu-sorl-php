@@ -1,0 +1,11 @@
+## YAML Template.
+---
+version: 3
+services:
+    ubuntu:
+        build: ./config/ubuntu/.
+    php:
+       build: ./config/php/. 
+    mysql:
+        build: ./config/mysql/.
+        
